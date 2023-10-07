@@ -17,13 +17,11 @@ const DSWizardScreen = () => {
       title="Titolo del wizard"
       description="Descrizione del wizard che può essere più lunga e occupare più righe."
       primaryButton={{
-        label: "Avanti",
-        accessibilityLabel: "Avanti",
+        text: "Avanti",
         onPress: onButtonPress
       }}
       actionButton={{
-        label: "Come funziona?",
-        accessibilityLabel: "Come funziona?",
+        text: "Come funziona?",
         onPress: onButtonPress
       }}
     />
